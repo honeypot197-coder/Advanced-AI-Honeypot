@@ -1,0 +1,95 @@
+{
+    "report_metadata": {
+        "generated_at": "2026-01-29T01:12:45",
+        "honeypot_id": "honeypot-01",
+        "analysis_version": "1.0"
+    },
+
+    "summary": {
+        "risk_level": "MEDIUM",
+        "risk_score": 40,
+        "reason": "High volume of distributed attacks"
+    },
+
+    "metrics": {
+        "total_attacks": 6877,
+
+        "attacks_by_type": {
+            "Brute Force": {
+                "count": 2330,
+                "severity": "MEDIUM"
+            },
+            "Port Scan": {
+                "count": 1757,
+                "severity": "LOW"
+            },
+            "SQL Injection": {
+                "count": 730,
+                "severity": "HIGH"
+            },
+            "Credential Stuffing": {
+                "count": 2060,
+                "severity": "HIGH"
+            }
+        },
+
+        "attacks_per_hour": {
+            "00": 1294,
+            "01": 12,
+            "09": 674,
+            "10": 739,
+            "12": 167,
+            "13": 1971,
+            "21": 1835,
+            "22": 185
+        }
+    },
+
+    "detections": {
+        "suspicious_ips": {
+            "count": 0,
+            "items": []
+        },
+
+        "multi_attack_ips": {
+            "count": 0,
+            "items": []
+        },
+
+        "burst_activity": {
+            "count": 0,
+            "items": []
+        }
+    },
+
+    "top_attackers": {
+        "limit": 5,
+        "items": [
+            {
+                "ip": "115.18.192.93",
+                "attempts": 4,
+                "risk": "LOW"
+            },
+            {
+                "ip": "206.155.45.194",
+                "attempts": 4,
+                "risk": "LOW"
+            },
+            {
+                "ip": "207.215.215.191",
+                "attempts": 4,
+                "risk": "LOW"
+            },
+            {
+                "ip": "67.199.126.67",
+                "attempts": 4,
+                "risk": "LOW"
+            },
+            {
+                "ip": "170.218.216.147",
+                "attempts": 4,
+                "risk": "LOW"
+            }
+        ]
+    }
+}

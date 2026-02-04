@@ -1,0 +1,2968 @@
+{
+    "overall_system_status": "CRITICAL",
+    "summary": {
+        "total_attacks": 219,
+        "most_frequent_attack": "Credential Stuffing",
+        "top_attacker": {
+            "ip": "249.92.234.37",
+            "count": 4
+        },
+        "hourly_stats": {
+            "11": 219
+        },
+        "attacks_by_type_list": [
+            {
+                "attack_type": "Brute Force",
+                "count": 59,
+                "severity": "MEDIUM"
+            },
+            {
+                "attack_type": "Port Scan",
+                "count": 44,
+                "severity": "LOW"
+            },
+            {
+                "attack_type": "Credential Stuffing",
+                "count": 88,
+                "severity": "HIGH"
+            },
+            {
+                "attack_type": "SQL Injection",
+                "count": 28,
+                "severity": "HIGH"
+            }
+        ]
+    },
+    "live_table": [
+        {
+            "ip": "210.181.192.236",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "131.177.190.11",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "249.92.234.37",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "4.56.237.160",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "246.245.104.105",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "50.153.173.105",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "155.54.255.123",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "224.19.20.92",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "185.46.13.232",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "161.11.96.39",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "73.60.220.219",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "167.247.34.3",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "234.160.214.79",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "147.184.51.154",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "9.113.178.78",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "84.105.216.129",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "147.69.136.63",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "76.217.134.107",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "115.68.214.152",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "108.88.135.1",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "254.253.13.235",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "27.42.78.16",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "166.183.205.225",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "12.211.102.199",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "3.234.181.42",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "17.14.22.135",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "9.121.113.187",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "185.109.198.171",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "161.146.206.94",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "17.3.152.36",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "126.157.14.221",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "39.232.184.175",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "145.148.234.230",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "210.93.172.1",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "163.116.213.105",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "45.33.196.149",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "57.67.161.109",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "214.107.67.249",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "85.113.76.36",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "126.81.43.48",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "145.88.2.123",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "22.216.210.64",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "99.204.27.7",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "6.128.226.178",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "155.218.221.41",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "197.115.206.212",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "15.55.50.166",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "109.193.84.190",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "99.125.118.43",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "122.250.149.233",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "7.97.176.58",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "155.153.41.166",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "243.171.3.126",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "32.40.155.235",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "123.30.215.190",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "56.88.129.110",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "159.161.28.121",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "124.192.157.7",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "196.117.17.200",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "251.59.3.7",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "74.58.41.123",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "33.22.94.115",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "179.134.26.238",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "121.108.249.166",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "86.131.108.85",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "72.80.175.184",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "145.95.114.169",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "22.9.156.134",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "84.2.171.161",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "22.5.199.105",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "157.182.106.36",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "251.241.82.28",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "244.134.167.114",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "168.101.121.112",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "197.78.40.155",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "148.20.129.166",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "50.61.108.217",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "54.134.31.11",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "136.232.197.13",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "105.38.101.136",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "42.62.52.201",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "47.220.198.250",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "46.150.47.127",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "102.240.207.0",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "229.163.123.219",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "149.22.124.91",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "250.183.112.89",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "142.169.2.35",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "217.155.252.161",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "64.242.135.150",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "58.187.160.111",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "98.223.31.178",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "120.126.81.82",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "231.115.218.134",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "24.90.195.251",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "80.95.208.205",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "16.57.117.182",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "149.107.181.126",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "208.175.166.69",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "166.156.64.74",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "7.180.222.220",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "121.25.188.157",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "155.55.225.233",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "4.48.86.36",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "70.237.21.25",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "66.145.203.128",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "108.62.139.14",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "1.207.1.52",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "96.12.248.169",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "98.124.198.66",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "71.122.156.64",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "190.110.58.76",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "7.231.36.251",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "150.117.244.187",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "207.228.155.116",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "12.71.165.69",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "79.103.180.22",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "55.184.204.162",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "253.87.231.63",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "145.115.62.192",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "169.82.225.224",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "146.117.109.242",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "167.154.37.95",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "64.226.11.55",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "175.28.89.12",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "12.33.224.26",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "238.103.70.80",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "90.215.88.13",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "222.123.160.181",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "70.207.111.246",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "186.74.1.241",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "150.60.104.255",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "30.19.176.81",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "231.49.43.175",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "179.130.253.229",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "118.160.228.248",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "7.243.179.235",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "54.45.91.74",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "138.141.167.122",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "230.190.51.160",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "94.28.255.18",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "90.77.12.248",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "170.212.228.131",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "49.121.61.151",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "224.243.178.94",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "129.57.29.228",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "199.109.222.219",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "187.59.67.224",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "242.223.124.188",
+            "attempts": 4,
+            "severity": "LOW"
+        },
+        {
+            "ip": "148.116.78.88",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "14.18.230.249",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "11.52.124.116",
+            "attempts": 1,
+            "severity": "LOW"
+        },
+        {
+            "ip": "0.113.19.86",
+            "attempts": 1,
+            "severity": "LOW"
+        }
+    ],
+    "detections_detailed": {
+        "heavy_activity": {
+            "detector": "Heavy Activity",
+            "total_detected": 153,
+            "data": [
+                {
+                    "ip": "210.181.192.236",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "131.177.190.11",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "249.92.234.37",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "4.56.237.160",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "246.245.104.105",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "50.153.173.105",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "155.54.255.123",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "224.19.20.92",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "185.46.13.232",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "161.11.96.39",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "73.60.220.219",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "167.247.34.3",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "234.160.214.79",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "147.184.51.154",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "9.113.178.78",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "84.105.216.129",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "147.69.136.63",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "76.217.134.107",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "115.68.214.152",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "108.88.135.1",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "254.253.13.235",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "27.42.78.16",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "166.183.205.225",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "12.211.102.199",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "3.234.181.42",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "17.14.22.135",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "9.121.113.187",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "185.109.198.171",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "161.146.206.94",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "17.3.152.36",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "126.157.14.221",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "39.232.184.175",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "145.148.234.230",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "210.93.172.1",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "163.116.213.105",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "45.33.196.149",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "57.67.161.109",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "214.107.67.249",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "85.113.76.36",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "126.81.43.48",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "145.88.2.123",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "22.216.210.64",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "99.204.27.7",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "6.128.226.178",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "155.218.221.41",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "197.115.206.212",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "15.55.50.166",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "109.193.84.190",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "99.125.118.43",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "122.250.149.233",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "7.97.176.58",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "155.153.41.166",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "243.171.3.126",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "32.40.155.235",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "123.30.215.190",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "56.88.129.110",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "159.161.28.121",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "124.192.157.7",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "196.117.17.200",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "251.59.3.7",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "74.58.41.123",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "33.22.94.115",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "179.134.26.238",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "121.108.249.166",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "86.131.108.85",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "72.80.175.184",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "145.95.114.169",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "22.9.156.134",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "84.2.171.161",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "22.5.199.105",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "157.182.106.36",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "251.241.82.28",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "244.134.167.114",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "168.101.121.112",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "197.78.40.155",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "148.20.129.166",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "50.61.108.217",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "54.134.31.11",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "136.232.197.13",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "105.38.101.136",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "42.62.52.201",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "47.220.198.250",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "46.150.47.127",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "102.240.207.0",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "229.163.123.219",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "149.22.124.91",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "250.183.112.89",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "142.169.2.35",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "217.155.252.161",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "64.242.135.150",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "58.187.160.111",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "98.223.31.178",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "120.126.81.82",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "231.115.218.134",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "24.90.195.251",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "80.95.208.205",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "16.57.117.182",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "149.107.181.126",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "208.175.166.69",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "166.156.64.74",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "7.180.222.220",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "121.25.188.157",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "155.55.225.233",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "4.48.86.36",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "70.237.21.25",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "66.145.203.128",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "108.62.139.14",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "1.207.1.52",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "96.12.248.169",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "98.124.198.66",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "71.122.156.64",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "190.110.58.76",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "7.231.36.251",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "150.117.244.187",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "207.228.155.116",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "12.71.165.69",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "79.103.180.22",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "55.184.204.162",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "253.87.231.63",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "145.115.62.192",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "169.82.225.224",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "146.117.109.242",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "167.154.37.95",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "64.226.11.55",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "175.28.89.12",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "12.33.224.26",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "238.103.70.80",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "90.215.88.13",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "222.123.160.181",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "70.207.111.246",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "186.74.1.241",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "150.60.104.255",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "30.19.176.81",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "231.49.43.175",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "179.130.253.229",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "118.160.228.248",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "7.243.179.235",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "54.45.91.74",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "138.141.167.122",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "230.190.51.160",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "94.28.255.18",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "90.77.12.248",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "170.212.228.131",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "49.121.61.151",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "224.243.178.94",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "129.57.29.228",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "199.109.222.219",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "187.59.67.224",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "242.223.124.188",
+                    "attempts": 4,
+                    "risk_score": 40,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "148.116.78.88",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "14.18.230.249",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "11.52.124.116",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "0.113.19.86",
+                    "attempts": 1,
+                    "risk_score": 10,
+                    "severity": "LOW"
+                }
+            ]
+        },
+        "multi_attack": {
+            "detector": "Multi Attack",
+            "total_detected": 153,
+            "data": [
+                {
+                    "ip": "210.181.192.236",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "131.177.190.11",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "249.92.234.37",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "4.56.237.160",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "246.245.104.105",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "50.153.173.105",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "155.54.255.123",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "224.19.20.92",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "185.46.13.232",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "161.11.96.39",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "73.60.220.219",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "167.247.34.3",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "234.160.214.79",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "147.184.51.154",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "9.113.178.78",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "84.105.216.129",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "147.69.136.63",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "76.217.134.107",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "115.68.214.152",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "108.88.135.1",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "254.253.13.235",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "27.42.78.16",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "166.183.205.225",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "12.211.102.199",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "3.234.181.42",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "17.14.22.135",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "9.121.113.187",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "185.109.198.171",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "161.146.206.94",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "17.3.152.36",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "126.157.14.221",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "39.232.184.175",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "145.148.234.230",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "210.93.172.1",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "163.116.213.105",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "45.33.196.149",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "57.67.161.109",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "214.107.67.249",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "85.113.76.36",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "126.81.43.48",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "145.88.2.123",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "22.216.210.64",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "99.204.27.7",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "6.128.226.178",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "155.218.221.41",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "197.115.206.212",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "15.55.50.166",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "109.193.84.190",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "99.125.118.43",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "122.250.149.233",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "7.97.176.58",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "155.153.41.166",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "243.171.3.126",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "32.40.155.235",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "123.30.215.190",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "56.88.129.110",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "159.161.28.121",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "124.192.157.7",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "196.117.17.200",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "251.59.3.7",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "74.58.41.123",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "33.22.94.115",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "179.134.26.238",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "121.108.249.166",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "86.131.108.85",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "72.80.175.184",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "145.95.114.169",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "22.9.156.134",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "84.2.171.161",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "22.5.199.105",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "157.182.106.36",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "251.241.82.28",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "244.134.167.114",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "168.101.121.112",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "197.78.40.155",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "148.20.129.166",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "50.61.108.217",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "54.134.31.11",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "136.232.197.13",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "105.38.101.136",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "42.62.52.201",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "47.220.198.250",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "46.150.47.127",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "102.240.207.0",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "229.163.123.219",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "149.22.124.91",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "250.183.112.89",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "142.169.2.35",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "217.155.252.161",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "64.242.135.150",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "58.187.160.111",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "98.223.31.178",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "120.126.81.82",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "231.115.218.134",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "24.90.195.251",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "80.95.208.205",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "16.57.117.182",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "149.107.181.126",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "208.175.166.69",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "166.156.64.74",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "7.180.222.220",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "121.25.188.157",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "155.55.225.233",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "4.48.86.36",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "70.237.21.25",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "66.145.203.128",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "108.62.139.14",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "1.207.1.52",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "96.12.248.169",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "98.124.198.66",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "71.122.156.64",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "190.110.58.76",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "7.231.36.251",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "150.117.244.187",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "207.228.155.116",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "12.71.165.69",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "79.103.180.22",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "55.184.204.162",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "253.87.231.63",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "145.115.62.192",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "169.82.225.224",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "146.117.109.242",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "167.154.37.95",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "64.226.11.55",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "175.28.89.12",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "12.33.224.26",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "238.103.70.80",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "90.215.88.13",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "222.123.160.181",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "70.207.111.246",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "186.74.1.241",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "150.60.104.255",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "30.19.176.81",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "231.49.43.175",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "179.130.253.229",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "118.160.228.248",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "7.243.179.235",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "54.45.91.74",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "138.141.167.122",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "230.190.51.160",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "94.28.255.18",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "90.77.12.248",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "170.212.228.131",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "49.121.61.151",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "224.243.178.94",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "129.57.29.228",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "199.109.222.219",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "187.59.67.224",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "242.223.124.188",
+                    "attack_types": [
+                        "Credential Stuffing"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "148.116.78.88",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "14.18.230.249",
+                    "attack_types": [
+                        "Brute Force"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "11.52.124.116",
+                    "attack_types": [
+                        "Port Scan"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                },
+                {
+                    "ip": "0.113.19.86",
+                    "attack_types": [
+                        "SQL Injection"
+                    ],
+                    "attack_count": 1,
+                    "severity": "LOW"
+                }
+            ]
+        },
+        "burst_activity": {
+            "detector": "Burst Activity",
+            "total_detected": 0,
+            "data": []
+        },
+        "port_scan_activity": {
+            "total_detected": 0,
+            "data": []
+        }
+    }
+}

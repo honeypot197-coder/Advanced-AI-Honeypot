@@ -1,0 +1,11 @@
+{
+  "suspicious_ip_threshold": 3,
+  "burst_window_minutes": 1,
+  "burst_threshold": 10,
+  "auto_block_threshold": 15,
+  "email_settings": {
+    "sender": "honeypot197@gmail.com",
+    "password": "bknv zvkb ingy owav",
+    "receiver": "honeypot197@gmail.com"
+  }
+}

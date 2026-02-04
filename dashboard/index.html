@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Honeypot Attack Report</title>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      width: 90%;
+      margin: auto;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .summary-boxes {
+      display: flex;
+      gap: 20px;
+    }
+
+    .box {
+      flex: 1;
+      text-align: center;
+      padding: 20px;
+      border-radius: 6px;
+      background: #f9f9f9;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+    }
+
+    th {
+      background: #f1f1f1;
+    }
+
+    .low { color: green; font-weight: bold; }
+    .medium { color: orange; font-weight: bold; }
+    .high { color: red; font-weight: bold; }
+  </style>
+</head>
+
+<body>
+
+<header>🛡️ Honeypot Attack Report</header>
+<p class="subtitle">
+  Last updated: <span id="lastUpdate">-</span>
+</p>
+
+<div class="container">
+
+  <!-- Summary -->
+  <div class="card">
+    <h2>Summary</h2>
+    <div class="summary-boxes">
+      <div class="box">
+        <h1 id="totalAttacks">0</h1>
+        <p>Total Attacks</p>
+      </div>
+      <div class="box">
+        <h1 id="riskLevel">-</h1>
+        <p>Risk Level</p>
+      </div>
+      <div class="box">
+        <p id="riskReason">-</p>
+        <p>Reason</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Timeline -->
+  <div class="card">
+    <h2>Attack Timeline (per hour)</h2>
+    <canvas id="timelineChart"></canvas>
+  </div>
+
+  <!-- Attack Statistics -->
+  <div class="card">
+    <h2>Attack Statistics</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Attack Type</th>
+          <th>Count</th>
+          <th>Severity</th>
+        </tr>
+      </thead>
+      <tbody id="attackStats"></tbody>
+    </table>
+  </div>
+
+  <!-- Suspicious IPs -->
+  <div class="card">
+    <h2>Suspicious IPs</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>IP Address</th>
+          <th>Attempts</th>
+          <th>Severity</th>
+        </tr>
+      </thead>
+      <tbody id="suspiciousIps"></tbody>
+    </table>
+  </div>
+
+</div>
+
+<script>
+/* ====== DATA (بديل attack_report.json) ====== */
+const reportData = {
+  summary: {
+    risk_level: "HIGH",
+    reason: "Multiple brute-force attacks detected from same IPs"
+  },
+  metrics: {
+    total_attacks: 148,
+    attacks_per_hour: {
+      "00": 5,
+      "01": 12,
+      "02": 30,
+      "03": 41,
+      "04": 22,
+      "05": 38
+    },
+    attacks_by_type: {
+      "SSH Brute Force": { count: 90, severity: "HIGH" },
+      "Port Scan": { count: 40, severity: "MEDIUM" },
+      "SQL Injection": { count: 18, severity: "LOW" }
+    }
+  },
+  detections: {
+    suspicious_ips: [
+      { ip: "192.168.1.10", attempts: 55, risk: "HIGH" },
+      { ip: "10.0.0.23", attempts: 32, risk: "MEDIUM" }
+    ]
+  }
+};
+
+let timelineChart = null;
+
+function updateTimeline(data) {
+  const labels = Object.keys(data);
+  const values = Object.values(data);
+
+  const ctx = document.getElementById("timelineChart").getContext("2d");
+
+  if (!timelineChart) {
+    timelineChart = new Chart(ctx, {
+      type: "line",
+      data: {
+        labels,
+        datasets: [{
+          label: "Attacks per Hour",
+          data: values,
+          borderWidth: 2,
+          tension: 0.3
+        }]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          y: { beginAtZero: true }
+        }
+      }
+    });
+  } else {
+    timelineChart.data.labels = labels;
+    timelineChart.data.datasets[0].data = values;
+    timelineChart.update();
+  }
+}
+
+function loadReport() {
+  document.getElementById("lastUpdate").innerText =
+    new Date().toLocaleTimeString();
+
+  document.getElementById("totalAttacks").innerText =
+    reportData.metrics.total_attacks;
+
+  const riskEl = document.getElementById("riskLevel");
+  riskEl.innerText = reportData.summary.risk_level;
+  riskEl.className = reportData.summary.risk_level.toLowerCase();
+
+  document.getElementById("riskReason").innerText =
+    reportData.summary.reason;
+
+  updateTimeline(reportData.metrics.attacks_per_hour);
+
+  const statsTable = document.getElementById("attackStats");
+  statsTable.innerHTML = "";
+
+  for (const [type, info] of Object.entries(reportData.metrics.attacks_by_type)) {
+    statsTable.innerHTML += `
+      <tr>
+        <td>${type}</td>
+        <td>${info.count}</td>
+        <td class="${info.severity.toLowerCase()}">${info.severity}</td>
+      </tr>
+    `;
+  }
+
+  const ipTable = document.getElementById("suspiciousIps");
+  ipTable.innerHTML = "";
+
+  for (const ip of reportData.detections.suspicious_ips) {
+    ipTable.innerHTML += `
+      <tr>
+        <td>${ip.ip}</td>
+        <td>${ip.attempts}</td>
+        <td class="${ip.risk.toLowerCase()}">${ip.risk}</td>
+      </tr>
+    `;
+  }
+}
+
+loadReport();
+</script>
+
+</body>
+</html>

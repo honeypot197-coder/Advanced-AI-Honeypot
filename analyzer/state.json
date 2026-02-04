@@ -1,0 +1,11 @@
+{
+    "session_id": "20260204_112656",
+    "logs": {
+        "brute.log": 6321,
+        "port.log": 4295,
+        "sqli.log": 2423,
+        "credential.log": 8672,
+        "logs\\port.log": 4295
+    },
+    "last_update": "2026-02-04 11:29:51"
+}
