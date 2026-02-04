@@ -1,3 +1,4 @@
+# Advanced-AI-Honeypot
 🛡️ Advanced AI Honeypot System
 A powerful Python-based security suite for real-time log analysis, automated threat mitigation, and intelligent email alerting.
 
@@ -31,27 +32,27 @@ Smart Audio Cues: Threshold-based audible alerts that trigger when system risk t
 ## 📁 Project Structure
 
 
-
-```
 ├── reports/
-│   ├── attack_report.json   # Real-time data exchange (JSON Pipeline)
-│   └── system_logs.txt      # Chronological log of automated actions
+│ ├── attack_report.json # Real-time data exchange (JSON Pipeline)
+│ └── system_logs.txt # Chronological log of automated actions
 ├── logs/
-│   ├── brute.log, sqli.log  # Simulated raw honeypot logs
-│   └── port.log             # Specialized port scanning logs
-├── blacklist.txt            # Automatically generated/updated blocklist
-├── config.json              # Centralized detection & threshold settings
-├── log_analyzer.py          # Backend Engine (Analysis + Auto-Block + SMTP)
-└── honeypot_gui.py          # Frontend Dashboard (Visuals + User Interaction)
+│ ├── brute.log, sqli.log # Simulated raw honeypot logs
+│ └── port.log # Specialized port scanning logs
+├── blacklist.txt # Automatically generated/updated blocklist
+├── config.json # Centralized detection & threshold settings
+├── log_analyzer.py # Backend Engine (Analysis + Auto-Block + SMTP)
+└── honeypot_gui.py # Frontend Dashboard (Visuals + User Interaction)
+
 
 ▶️ Execution Workflow
 Install Dependencies:
 
+```bash
 pip install matplotlib
 
 Configure Environment (config.json):
 
-Enter your sender email and your 16-character App Password to enable the alerting engine.
+Enter your sender email and your 16-character App Password to enable the alerting engine
 
 Launch the Analysis Engine:
 
@@ -71,3 +72,5 @@ Modify system behavior on-the-fly:
 auto_block_threshold: The number of hits before an IP is automatically banned.
 
 email_settings: Credentials for the SMTP alert system.
+
+
